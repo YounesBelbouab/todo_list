@@ -1,0 +1,21 @@
+# Environnement virtuel Python
+venv/
+.venv/
+
+# Fichiers générés par Python et pytest
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets : jamais dans Git
+.env
+.env.*
+!.env.example
+deploy/*secret*.yaml
+kubeconfig*
+
+# Éditeurs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
